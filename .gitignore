@@ -1,5 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
+
+# Database
+*.db
+*.sqlite3
+postgres_data/
+
+# Logs
+*.log
+
+# Next.js (frontend)
 node_modules/
+.next/
+out/
 build/
 dist/
-.env
